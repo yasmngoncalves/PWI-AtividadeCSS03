@@ -1,0 +1,126 @@
+body {
+    font-family: Calibri;
+    text-align: center;
+    margin: 0;
+}
+
+.bloco-cabecalho {
+    background-image: url(Img/textura-branca.jpg);
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    box-sizing: border-box;
+    padding: 10px;
+    z-index: 5;
+}
+
+.bloco-cabecalho img {
+    height: 40px;
+    width: auto;
+}
+
+.bloco-navegacao {
+    background-image: url(Img/textura-branca.jpg);
+    width: 20%;
+    height: 100%;
+    top: 80px;
+    right: 0;
+    position: fixed;
+    box-sizing: border-box;
+    z-index: 5;
+}
+
+.bloco-navegacao img {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+}
+
+.bloco-navegacao ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+.bloco-navegacao a {
+    text-decoration: none;
+    font-size: 14pt;
+}
+
+.bloco-principal  {
+    background-image: url(Img/textura-cinza.jpg);
+    background-size: cover;
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+    top: 80px;
+    left: 0px;
+    position: absolute;
+    box-sizing: border-box;
+    border-top: 2px dotted rgb(255,250,250);
+    border-right: 2px dotted rgb(255,250,250);
+    z-index: 1;
+}
+
+.paragrafo {
+    color: rgb(255, 250, 250);
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16pt;
+}
+
+span {
+    color: rgb(255, 165, 0);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+table {
+    margin: auto;
+}
+
+table th {
+    text-align: left;
+    font-size: 14pt;
+    color: rgb(105, 105, 105);
+}
+
+table td {
+    color: rgb(255, 250, 250);
+    font-size: 12pt;
+    border: 2px double rgb(255, 250, 250);
+    text-align: center;
+}
+
+table th, table caption {
+    color: rgb(255, 250, 250);
+    border: 2px double rgb(255, 250, 250);
+    text-align: center;
+}
+
+table caption {
+    color: rgb(30, 144, 255);
+    font-weight: bold;
+}
+
+table img {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.font-ref {
+    text-align: right;
+    font-size: 12pt;
+    color: rgb(255, 215, 0);
+    font-weight: bold;
+    font-style: italic;
+}
+
+th.link:hover {
+    background-color: rgb(105, 105, 105);
+    opacity: 0.75;
+    color: rgb(255, 250, 250);
+}
